@@ -1,6 +1,5 @@
 /* Global Rules */
 * {
-  background-color: black;
   font-family: helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
@@ -38,6 +37,7 @@ header {
   align-items: center;
   z-index: 1;
   flex-wrap: wrap;
+  background-color: black;
 }
 
 .logo img {
@@ -62,6 +62,7 @@ header span {
 #main {
   flex-direction: column;
   justify-content: center;
+  background-color: black;
 }
 
 /* Section 1 (big image) */
@@ -77,7 +78,7 @@ header span {
   top: 50%;
   margin: auto;
   width: 100%;
-  padding: 0px;
+  background-color: black;
 }
 
 /* Section 2 (small images) */
@@ -87,6 +88,7 @@ header span {
   flex-direction: column;
   margin: 0 auto;
   padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 #s2_header {
@@ -101,4 +103,29 @@ header span {
 
 .stories.flex-container {
   flex-direction: column;
+}
+
+/* Section 3 */
+
+#section3 {
+  background-image: url(./Resources/tea_cup.jpg);
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+#locationsheader {
+  background-color: transparent;
+}
+
+#downtown,
+#bayside,
+#oakdale {
+  width: 300px;
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+  margin: 5px 20px;
+  background-color: black;
 }
