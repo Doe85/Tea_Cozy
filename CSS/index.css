@@ -3,7 +3,6 @@
   font-family: helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
-  text-align: center;
 }
 
 h2 {
@@ -15,6 +14,10 @@ h2 {
 h4 {
   margin: 0;
   padding: 10px;
+}
+
+h5 {
+  font-size: 18px;
 }
 
 .flex-container {
@@ -72,6 +75,7 @@ header span {
   height: 700px;
   padding-top: 70px;
   margin: 0 auto;
+  text-align: center;
 }
 
 #image_large_text {
@@ -89,6 +93,7 @@ header span {
   margin: 0 auto;
   padding-top: 70px;
   padding-bottom: 70px;
+  text-align: center;
 }
 
 #s2_header {
@@ -113,6 +118,7 @@ header span {
   width: 1200px;
   margin: 0 auto;
   flex-direction: column;
+  text-align: center;
 }
 
 #locationsheader {
@@ -128,4 +134,14 @@ header span {
   align-content: center;
   margin: 5px 20px;
   background-color: black;
+}
+
+#contact {
+  height: 200px;
+  text-align: center;
+}
+
+footer {
+  text-align: left;
+  padding: 20px;
 }
