@@ -76,13 +76,14 @@ header span {
   padding-top: 70px;
   margin: 0 auto;
   text-align: center;
+  align-content: center;
 }
 
 #image_large_text {
-  top: 50%;
   margin: auto;
   width: 100%;
   background-color: black;
+  text-align: center;
 }
 
 /* Section 2 (small images) */
@@ -121,10 +122,6 @@ header span {
   text-align: center;
 }
 
-#locationsheader {
-  background-color: transparent;
-}
-
 #downtown,
 #bayside,
 #oakdale {
@@ -136,10 +133,14 @@ header span {
   background-color: black;
 }
 
+/* Contact Section */
+
 #contact {
   height: 200px;
   text-align: center;
 }
+
+/* Footer */
 
 footer {
   text-align: left;
