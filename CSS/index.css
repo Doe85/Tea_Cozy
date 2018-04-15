@@ -26,8 +26,6 @@ h5 {
   flex-wrap: wrap;
 }
 
-/* NOTE: Remember to add opacticy 0.9 to global rules */
-
 /* Header Section */
 
 header {
@@ -41,6 +39,7 @@ header {
   z-index: 1;
   flex-wrap: wrap;
   background-color: black;
+  margin-top: -8px;
 }
 
 .logo img {
@@ -109,6 +108,10 @@ header span {
 
 .stories.flex-container {
   flex-direction: column;
+}
+
+.stories span {
+  padding: 5px;
 }
 
 /* Section 3 */
